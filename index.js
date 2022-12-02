@@ -6,7 +6,7 @@ app.use(express.static("public"));
 const port =3000;
 
 app.get("/",function(req,res){
-    // res.sendFile(__dirname+"/index.html")
+    res.sendFile(__dirname+"/index.html")
 })
 
 app.listen(port, function(){      //our local server at port 3000
