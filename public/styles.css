@@ -28,6 +28,7 @@ body{
 }
 .parents{
     color: rgb(59, 33, 85);
+    line-height: 1;
 }
 .invite{
     width: 80%;
